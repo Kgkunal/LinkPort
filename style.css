@@ -72,3 +72,8 @@ a{
     height: 85%;
     width: 85%;
 }
+
+.icon{
+    margin: 4px 8px;
+    font-size: 35px;
+}
