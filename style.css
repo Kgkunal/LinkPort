@@ -26,6 +26,12 @@ header{
     background-color: rgb(240, 240, 240);
 }
 
+.share-button i{
+    margin: 4px 8px;
+    font-size: 25px;
+    color: black;
+}
+
 .container{
     width: 91%;
     max-width: 480px;
@@ -50,7 +56,11 @@ a{
     height: 56px;
     display: flex;
     justify-content: space-between;
+}
 
+.tile:hover{
+    transform: scale(1.05);
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .share-tile{
