@@ -72,8 +72,8 @@ a{
 }
 
 .image-container{
-    height: 96px;
-    width: 96px;
+    height: auto;
+    width: 90px;
     border-radius: 48px;
     overflow: hidden;
 }
