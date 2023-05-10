@@ -27,9 +27,14 @@ header{
 }
 
 .share-button i{
-    margin: 4px 8px;
+    margin-top: 6px;
+    margin-left: 8px;
     font-size: 25px;
     color: black;
+}
+
+.share-button:hover{
+    transform: scale(1.05);
 }
 
 .container{
@@ -90,5 +95,7 @@ a{
 
 .share-tile i{
     font-size:23px;
-    margin: 4px 8px;
+    margin-left: 9px;
+    margin-top: 7px;
+    
 }
