@@ -19,11 +19,33 @@ header{
     margin-top: 15px;
 
 }
+
+.dark-mode-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
+    margin-right: 5px;
+  }
+  
+  .dark-mode-btn i {
+    margin-top: 6px;
+    margin-left: 8px;
+    font-size: 25px;
+    color: black;
+    
+  }
+
+  .dark-mode-btn:hover{
+    transform: scale(1.05);
+  }
+  
 .share-button{
     width: 40px;
     height: 40px;
     border-radius: 20px;
     background-color: rgb(240, 240, 240);
+    
 }
 
 .share-button i{
@@ -99,3 +121,5 @@ a{
     margin-top: 7px;
     
 }
+
+
