@@ -1,7 +1,29 @@
 const darkmodebtn = document.getElementById('dark-mode-btn');
+const body = document.querySelector('body');
+const modeIcon = document.getElementById('mode-icon');
 
 darkmodebtn.addEventListener("click", function(){
-    console.log("btn is clicked")
-    darkmodebtn.classList.add('fa-moon');
-    darkmodebtn.classList.remove('fa-sun');
-})
+    console.log("mode btn is clicked");
+   
+    modeIcon.classList.add('fa-moon');
+    modeIcon.classList.remove('fa-sun');
+    changeMode();
+    
+});
+
+// function to change color according to mode
+
+const modebtn = document.querySelector('.dark-mode-btn');
+const menuebtn = document.querySelector('.share-button');
+const menueIcon = document.getElementById('mIcon');
+const pName = document.getElementById('profile-name');
+function changeMode(){
+    body.style.backgroundColor= "white";
+    modebtn.style.backgroundColor = "black";
+    menuebtn.style.backgroundColor = "black";
+    modeIcon.style.color= "white";
+    menueIcon.style.color= "white";
+    pName.style.color = "black";
+
+    
+}
