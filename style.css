@@ -103,11 +103,13 @@ a{
     width: 90px;
     border-radius: 48px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .image-container img{
     height: 85%;
-    width: 85%;
+    width: 100%;
 }
 
 .icon{
