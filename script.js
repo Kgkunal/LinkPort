@@ -17,6 +17,7 @@ const modebtn = document.querySelector('.dark-mode-btn');
 const menuebtn = document.querySelector('.share-button');
 const menueIcon = document.getElementById('mIcon');
 const pName = document.getElementById('profile-name');
+const footerline = document.querySelector('.list');
 function changeMode(){
     body.style.backgroundColor= "white";
     modebtn.style.backgroundColor = "black";
@@ -24,6 +25,7 @@ function changeMode(){
     modeIcon.style.color= "white";
     menueIcon.style.color= "white";
     pName.style.color = "black";
+    footerline.style.color = "black";
 
     
 }
